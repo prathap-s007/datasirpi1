@@ -1,0 +1,371 @@
+
+.box {
+    height: auto;
+    width: 90%;
+    float: left;
+    left: 20%;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 800px;
+    margin-top: 50px;
+    /* padding-top: 20px; */
+    /* border-color: black; */
+    border: 0px;
+    /* border-style: solid; */
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 37px 0 rgb(0 0 0 / 19%);
+}
+.button{
+  background-color: #07a249;
+    border-color: #07a249;
+    outline: 0;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+}
+.button:hover{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 37px 0 rgb(0 0 0 / 19%);
+}
+.nav{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 110%;
+  /* background-color: #07a249; */
+}
+.nav a {
+  float: left;
+  padding: 12px;
+  color: #07a249;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%;
+  text-align: center;
+  background-color: hsla(141, 36%, 91%, 0.871);
+  transition: all 1s ease 0s;
+}
+.nav a.active{
+  color: white;
+  background-color: #07a249;
+  z-index: z;
+}
+.nav a.active:hover{
+  color: white;
+  background-color: #07a249;
+}
+.nav a:hover{
+  background-color:  #d2d2d2e3; 
+}
+
+.textbox{
+  box-sizing: border-box;
+  border: none;
+  color: #07a249;
+  border-bottom: 2px solid #D2D2D2;
+  width: 100%;
+  /* padding-top: ; */
+  font-family: inherit;
+  -webkit-appearance: none;
+}
+label .textbox{
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+.textbox:focus{
+  outline: 0;
+  border-bottom: 2px solid #07a249; 
+}
+.label1{
+  color: #D2D2D2;
+ bottom: 30px;
+  position: relative;
+  transition: all 300ms ease-in-out;
+  margin: 2px;
+}
+.label2{
+  color: #D2D2D2;
+  font-size: 0.9em;
+  width: auto;
+  height: 1.8em;
+  position: relative;
+  margin: 2px;
+  font-weight: 700;
+  
+  
+  bottom:50px;
+  left: 0em;
+}
+.textbox:focus+.label1{
+  color: #07a249;
+  font-size: 0.8em;
+  width: auto;
+  height: 1.3em;
+  
+  /* margin: 2px; */
+  bottom:50px;
+  left: 0em;
+}
+.textbox::after+label{
+  color: black;
+}
+.container{
+  margin-top: 20px;
+  
+}
+
+
+
+.pp{
+  position:relative;
+  background-color: transparent;
+  border-color: transparent;
+  /* width: 90%; */
+}
+.pp:hover:after{
+  opacity: 0;
+}
+.pp:after{
+  margin-top: 30px;
+content: 'Change image';
+  top: 0px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  height: 100px;
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0;
+  transition: all linear .3s;
+}
+
+.profileimage{
+  margin-top: 30px;
+  height: 100px;
+  /* width: 80px; */
+  border-radius: 50%;
+  align-items: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.profileimage:hover{
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+  color: transparent;
+}
+
+.head{
+  background-color: #07a249;
+  color: white;
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  float: left;
+  border-radius: 4px;
+  bottom: 25px;
+  left: 11%;
+box-shadow: 0 4px 24px 0 rgb(0 0 0 / 20%), 0 6px 37px 0 rgb(0 0 0 / 19%);
+position:relative;
+}
+
+p{
+  font-size: 25px;
+}
+
+
+.design{
+  box-sizing: border-box;
+  height: 140px;
+  width: 89%;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  border: 9px solid #07a429;
+  color: #07a429;
+  text-align: center;
+  font-weight: 600 ;
+  align-items: center;
+  padding-top: 48px;
+}
+.design1{
+  box-sizing: border-box;
+  height: 140px;
+  width: 89%;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  border: 9px solid #D2D2D2;
+  color: #D2D2D2;
+  font-weight: 600 ;
+  text-align: center;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.radio{
+  height: 25px;
+  width: 25px;
+  background-color: #07a249;
+  color: red;
+
+}
+.photo{
+  color: #D2D2D2;
+  text-align: center;
+    align-items: center;
+    position: relative;
+    left: 24px;
+    font-weight: 500;
+}
+
+.modal1{
+  border-radius: 8px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 368px;
+  top: 87px;
+  background-color: #07a249;
+  width: 509px;
+  height: 76px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: anim 1s 1;
+  animation-direction: bottom;
+}
+.thumb{
+  position: relative;
+  right: 239px;
+  bottom: 14px;
+}
+.text{
+  font-size: 20px;
+  position: relative;
+  bottom: 31px;
+}
+@keyframes anim{
+  0%{
+    bottom: 0px;
+    top:30px;
+  }
+  
+}
+
+.modal2{
+  border-radius: 8px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 368px;
+  top: 87px;
+  background-color: #FFA21A;
+  width: 509px;
+  height: 76px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: anim 1s 1;
+  animation-direction: bottom;
+}
+body{
+  background-color: #eefaea;
+}
+input[type="radio"]{
+  opacity:0;
+  height: 0;
+  width: 0;
+}
+.rad{
+  width: 25px;
+  height: 25px;
+  /* background-color: #07a249; */
+  border-radius: 50%;
+  border: 1px solid black;
+}
+input[type=radio] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+  margin-right: 32px;
+  cursor: pointer;
+  line-height: 16px;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+  
+}
+input[type=radio] + label:before, input[type=radio] + label:after{
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  color: #07a249;
+  font-family: Times;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+input[type=radio] + label:before {
+  box-shadow: inset 0 0 0 1px #666565, inset 0 0 0 16px #FFFFFF, inset 0 0 0 16px #07a249;
+  color: #07a249;
+}
+
+
+
+input[type=radio]:checked + label:before {
+  color: #07a249;
+  animation-duration: 0.5s;
+  animation-name: select-radio;
+  animation-iteration-count: 1;
+  animation-direction: Normal;
+  box-shadow: inset 0 0 0 1px #07a249, inset 0 0 0 3px #FFFFFF, inset 0 0 0 16px #07a249;
+}
+
+@keyframes change-size {
+  from {
+    box-shadow: 0 0 0 0 #07a249, inset 0 0 0 1px #07a249, inset 0 0 0 16px #FFFFFF, inset 0 0 0 16px #07a249;
+  }
+  to {
+    box-shadow: 0 0 0 1px #07a249, inset 0 0 0 1px #07a249, inset 0 0 0 16px #FFFFFF, inset 0 0 0 16px #07a249;
+  }
+}
+@keyframes select-radio {
+  0% {
+    box-shadow: 0 0 0 0 #91DEAC, inset 0 0 0 2px #FFFFFF, inset 0 0 0 3px #07a249, inset 0 0 0 16px #FFFFFF, inset 0 0 0 16px #07a249;
+  }
+  90% {
+    box-shadow: 0 0 0 10px #E8FFF0, inset 0 0 0 0 #FFFFFF, inset 0 0 0 1px #07a249, inset 0 0 0 2px #FFFFFF, inset 0 0 0 16px #07a249;
+  }
+  100% {
+    box-shadow: 0 0 0 12px #E8FFF0, inset 0 0 0 0 #FFFFFF, inset 0 0 0 1px #07a249, inset 0 0 0 3px #FFFFFF, inset 0 0 0 16px #07a249;
+  }
+}
